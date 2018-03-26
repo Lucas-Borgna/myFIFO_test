@@ -1,0 +1,16 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 76fffe687dc943de9d192415a71de9b5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_STD_FIFO_behav xil_defaultlib.TB_STD_FIFO -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-122] std_fifo remains a black-box since it has no binding entity [C:/Users/lucas/OneDrive/PhD/VHDL tutorial/myFIFO/myFIFO/myFIFO.srcs/sim_1/new/FIFO_tb.vhd:46]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavior of entity xil_defaultlib.tb_std_fifo
+Built simulation snapshot TB_STD_FIFO_behav
